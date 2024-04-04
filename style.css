@@ -46,8 +46,12 @@ h1{
     padding: 40px;
    
 }
+.conteiner > h1, p, ul, li {
+    margin: 40px;
+
+}
 
 .linha{
     border: 2px rgb(2, 70, 28) solid;
-
+    width: 100vw;
 }
