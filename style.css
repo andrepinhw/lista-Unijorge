@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+:root{
+    --main-color1: #45214A;
+    --main-color2: #323050;
+    --main-color3: #21445B;
+    --main-color4: #1A6566;
+    --main-color5: #5D8A66;
+    --main-color6: #101010;
+    --main-color7: #f2f2f2;
+
+}
+
+body{
+    background-color: var(--main-color7);
+}
+
+
+h1{
+    color: var(--main-color4);
+}
+
+
+.banner-main{
+    background-image: url(./post_unijorge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteiner{
+    padding: 40px;
+   
+}
+
+.linha{
+    border: 2px rgb(2, 70, 28) solid;
+
+}
