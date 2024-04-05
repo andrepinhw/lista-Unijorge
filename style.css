@@ -62,3 +62,8 @@ table {
     border: 5px solid black;
     position: relative;
    }
+.linha {
+    
+    padding: 0px;
+    border: 2px solid black;
+}
